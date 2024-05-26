@@ -1,5 +1,5 @@
 /**
- * Crea una función que combine los dos nombres, dejando un espacio enmedio
+ * Crea una función que combine los dos nombres, dejando un espacio en medio
  * 
  * @param {string} name1 Primer nombre
  * @param {string} name2 Segundo nombre

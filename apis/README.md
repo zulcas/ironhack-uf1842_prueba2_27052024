@@ -1,6 +1,6 @@
 # Obtener información de un usuario de GitHub
 
-Realiza una llamada a la API de GitHub para obtener la información pública sobre [un usuario](https://docs.github.com/es/rest/users/users?apiVersion=2022-11-28#get-a-user)
+Realiza una llamada a la API de GitHub para obtener la información pública sobre [un usuario](https://docs.github.com/es/rest/users/users?apiVersion=2022-11-28#get-a-user). 
 
 1. Su nombre completo
 2. Su biografía o descripción

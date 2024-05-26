@@ -1,5 +1,5 @@
 /**
- * Los software de cribado de candidatos de los reclutadores puede ser algo inhumano. Suelen descartar de forma automática aquellos candidatos que no disponen de un mínimo de años de experiencia en una materia, aunque puedan demostrar otras cualidades
+ * Los software de cribado de candidatos de los reclutadores puede ser algo estrictos. Suelen descartar de forma automática aquellos candidatos que no disponen de un mínimo de años de experiencia en una materia, aunque puedan demostrar otras cualidades.
  * 
  * Nos han pedido diseñar una función para un software de reclutamiento, que va a filtrar todos los lenguajes de programación en los que no haya trabajado un candidato durante un tiempo determinado
  * 
@@ -12,7 +12,7 @@
  */
 
 function filterProgrammingLanguages(languages, minYears) {
-    
+
 }
 
 // Caso 1: Candidata con suficientes años de experiencia en algunos lenguajes
