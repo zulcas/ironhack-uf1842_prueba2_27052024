@@ -28,10 +28,15 @@ body {
 }
 
 .prevBtn,
-.nextBtn {
+.nextBtn,
+.customBtn {
   box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.9);
   background: var(--mainBlue);
   color: var(--mainWhite);
+}
+
+.customBtn {
+  background-color: purple;
 }
 
 .prevBtn:hover {
