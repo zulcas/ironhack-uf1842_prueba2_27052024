@@ -8,7 +8,7 @@
  */
 
 function combineNames(name1, name2) {
-
+    return (`${name1} ${name2}`); //`opcion1: ${name1} ${name2}`; Opción2: name1 + ' ' + name2
 }
 
 console.log(combineNames('James', 'Stevens')); // "James Stevens"

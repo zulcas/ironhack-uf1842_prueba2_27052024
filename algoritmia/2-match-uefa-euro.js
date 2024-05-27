@@ -8,6 +8,13 @@
  * @returns {string} Resultado del partido, siguiendo el formato indicado en los comentarios, según si ha ganado el primer equipo, el segundo, o ha habido empate.   
 */
 function uefaEuro2016(teams, scores) {
+    //Comparamos resultados array score 
+    if (scores[0]>scores[1]){
+        return (`At match ${teams[0]} - ${teams[1]}, ${teams[0]} won!`);
+    }else if (scores[0]<scores[1]){
+        return (`At match ${teams[0]} - ${teams[1]}, ${teams[1]} won!`);
+    }
+    return (`At match ${teams[0]} - ${teams[1]}, teams played draw.`);  
 
 }
 

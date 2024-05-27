@@ -12,6 +12,16 @@
  */
 
 function filterProgrammingLanguages(languages, minYears) {
+    //Variables
+    let validLanguages = [];
+    //Recorremos todos los lenguajes 
+    languages.forEach(element => {
+        if (element.years >= minYears){
+            //Añadimos lenguaje con suf experiencia a array que devolveremos
+            validLanguages.push(element.name);
+        }
+    });
+    return validLanguages;
 
 }
 
