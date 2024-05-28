@@ -18,7 +18,7 @@ async function getNewUser(){
     //3) Convertimos JSON a JS
     const data = await response.json()
     console.log(data);
-    //4) Comprobamos si existe usuario
+    //4) Comprobamos si existe usuario (he usado respuesta genérica, sin especificar response.status, donde encontrariamos el 403 cuando sobrepasas llamadas de la api vs 404 cuando usuario no existe)
     if(response.ok==false && !isError){
         displayErrorMessage('Error: El usuario no existe.')
         isError = true;
